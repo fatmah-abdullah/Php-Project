@@ -1,0 +1,27 @@
+
+body {
+                font-family: Arial, sans-serif;
+                background-size: 300px;
+              background-color:#cabcbc40;
+         }
+            section {
+                border: 5px solid #604808;
+                background-color: white;
+                width: 60%;
+                margin: 20px auto;
+                padding: 15px;
+                text-align: center;
+            }
+            h1 {
+                color: #604808;
+                text-align: center;
+                font-size: 27px;
+            }
+            p{
+                color: #8b5e34;
+                font-size: 17pt;
+                line-height: 1.4;
+            }
+        
+            
+  

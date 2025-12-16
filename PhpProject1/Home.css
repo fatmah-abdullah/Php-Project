@@ -1,0 +1,96 @@
+    /*Home Page Styling*/
+
+
+/* Preview block  */
+      
+    .preview {
+      background-color: #eee; /* Placeholder background */
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .preview img {
+      width: 400px; /* Placeholder size */
+      height: 350px;
+      display: block;
+      margin: 0 auto 20px;
+      border-radius: 10px;
+    }
+    .preview h1 {
+      color: #5a3825;
+    } 
+
+ /* Best sellers block */
+      
+    .best-sellers {
+      text-align: center;
+      padding: 40px 20px;
+      background-color: #f5f5f5;
+    }
+
+    .best-sellers h2 {
+      margin: 20px;
+      color: #5a3825;
+    }
+
+    .best-sellers .items {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap; /* to make the baest sellers items under each other in small  */
+    }
+
+    .best-sellers .item {
+      width: 200px;
+      background-color: white;
+      padding: 15px; 
+      border: 1px solid #ddd;
+      border-radius: 10px;
+    }
+
+    .best-sellers .item img {
+      width: 100%;
+      height: 120px;
+      
+      display: block;
+      margin-bottom: 10px;
+    }
+      
+      
+ /* Delivery block */
+    .delivery {
+      background-color: #fff5e6;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .delivery h2 {
+      color: #5a3825;
+      margin-bottom: 20px;
+    }
+
+    .delivery p {
+      max-width: 500px;
+      margin: 0 auto 20px;
+      color: #333;
+    }
+
+    .delivery img {
+      width: 500px; 
+      height: 300px;
+      display: block;
+      margin: 20px auto;
+     
+    }
+      
+
+ footer {
+      background-color: #5a3825;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    
+    }
+
+
+
+  

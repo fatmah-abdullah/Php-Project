@@ -1,0 +1,46 @@
+
+
+
+body {
+    background-color:#cabcbc40; 
+}
+.my-img{
+    display: block;
+    margin:0 auto;
+    width:100px;
+}
+.box{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 10vh;
+}
+.box label{
+    
+    display: block;
+    margin-bottom:5px;
+    color:#733a11;
+    font-weight: bold;
+}
+#login{
+    margin-top:20px;
+    text-align: center;
+}
+.remm{
+    font-size: 13px; 
+    display: flex;
+    align-items: center;
+    gap: 5px;  
+    cursor: pointer;
+    color:#49270e;
+    font-weight: bold;
+}
+.remm input[type="checkbox"] {
+  width: 16px;          
+  height: 16px; 
+  accent-color: brown;
+    
+  margin-right: 4px;
+}
+

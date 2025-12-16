@@ -1,0 +1,52 @@
+
+    /*ALL PAGES STYLING*/
+
+
+      /* Navigation bar styling */
+
+
+    nav {
+      background-color: #5a3825; 
+      padding: 10px; /* the hight of the nav bar */
+    }
+
+    nav ul {
+      list-style: none; /* Remove bullet points */
+      margin: 0;
+      padding: 0;
+      display: flex; /* Display horizontally */
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin: 0 15px; /* Space between nav items */
+    }
+
+    nav ul li a {
+      text-decoration: none; /* Remove underline */
+      color: white;
+      font-weight: bold;
+    }
+
+
+      body {
+      max-width: auto;
+      font-family: Arial, sans-serif; 
+      margin: 0;                      
+      padding: 0;                     
+       background-color: #fdfdfd;            
+      color: #333;                    
+      line-height: 1.6;               /* Spacing between lines of text */
+    
+      }
+footer {
+      background-color: #5a3825;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    
+    }
+
+
+    
+                  

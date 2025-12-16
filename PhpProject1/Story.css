@@ -1,0 +1,54 @@
+           /*Story Page Styling*/
+    
+    
+   
+    .story-section {
+      display: flex;                  /* text and image side by side */
+      align-items: center;            /* Aligns items vertically in the middle */
+      gap: 40px;                      /* Space between text and image */
+      padding: 60px 10%;              /* Inner spacing (top/bottom 60px, left/right 10%) */
+    }
+
+      
+      
+    .story-text {
+      flex: 1;                        /* Makes text take half the space */
+    }
+
+      
+    .story-text h2 {
+      font-size: 28px;                
+      margin-bottom: 15px;            /* Space below the heading */
+      color: #4b2e2e;                 
+    }
+
+      
+    .story-text p {
+      font-size: 16px;                
+      color: #555;                   
+    }
+
+
+    .story-image {
+      flex: 1;                        /* Makes image take half the space */
+    }
+
+    
+      
+    .story-image img {
+      width: 100%;                    /* Image takes full width of its container */
+      max-width: 500px;               /* But doesn’t grow larger than 500px */
+      border-radius: 10px;            /* Rounds corners of the image */
+      }
+
+      
+      
+  
+    .story-section:nth-child(even) {
+      flex-direction: row-reverse;    /* For even sections: put image on the right, text on the left */
+      background: #faf6f3;            /*  background color */
+    }
+
+
+
+      

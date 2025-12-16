@@ -1,0 +1,33 @@
+
+
+
+body {
+    background-color:#cabcbc40; 
+}
+.my-img{
+    display: block;
+    margin:03px auto;
+    width:100px;
+}
+ .box label{
+    
+    display: block;
+    margin-bottom:5px;
+    color:#733a11;
+    font-weight: bold;
+}
+.box{
+    
+    margin-top: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 10vh;
+}
+
+#submit{
+    display: block;
+    margin-top:20px;
+    text-align: center;
+}
+
